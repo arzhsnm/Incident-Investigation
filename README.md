@@ -1,7 +1,5 @@
-# Отчёт по расследованию компьютерного вторжения
 ## Incident Investigation — Forensics Linear Quest: Task 2
 
-**Дата анализа:** 29–30 июня 2026 г.  
 **Анализируемый образ:** rd01-triage.vhdx  
 **Инструменты:** PECmd, AppCompatCacheParser, AmcacheParser, MFTECmd (Eric Zimmerman Tools)  
 **Операционная система образа:** Windows 10/11 (22000)
@@ -16,10 +14,10 @@
 
 | № | Приложение | Путь | Причина интереса |
 |---|-----------|------|-----------------|
-| 1 | **PowerShell.exe** ⭐ | C:\Windows\System32\WindowsPowerShell\v1.0\ | Основной инструмент атакующих, living-off-the-land |
-| 2 | **CMD.exe** ⭐ | C:\Windows\System32\ | Запуск команд, скриптов, разведка |
-| 3 | **EdgeUpdater.exe** ⭐ | C:\Windows\Update\ | Подозрительное расположение, маскировка |
-| 4 | **STUN.exe** ⭐ | C:\Windows\System32\ | Нестандартный инструмент, переименован |
+| 1 | **PowerShell.exe**  | C:\Windows\System32\WindowsPowerShell\v1.0\ | Основной инструмент атакующих, living-off-the-land |
+| 2 | **CMD.exe**  | C:\Windows\System32\ | Запуск команд, скриптов, разведка |
+| 3 | **EdgeUpdater.exe**  | C:\Windows\Update\ | Подозрительное расположение, маскировка |
+| 4 | **STUN.exe**  | C:\Windows\System32\ | Нестандартный инструмент, переименован |
 | 5 | **MSTSC.exe** | C:\Windows\System32\ | RDP клиент — боковое перемещение |
 | 6 | **NET.exe** | C:\Windows\System32\ | Управление пользователями и сетью |
 | 7 | **CSCRIPT.exe** | C:\Windows\System32\ | Запуск вредоносных скриптов |
