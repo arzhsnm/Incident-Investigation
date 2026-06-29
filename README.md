@@ -1,6 +1,6 @@
 ## Incident Investigation — Forensics Linear Quest: Task 2
 
-**Анализируемый образ:** rd01-triage.vhdx  
+**Анализируемый образ:** rd01-triage.vhdx https://astanait-my.sharepoint.com/:u:/g/personal/220757_astanait_edu_kz/EQeklCkGuxtJkVc42ISgr8MBOThTQkdOwSmC-QSO7SiiXw?e=gyoa0l  rteampass 
 **Инструменты:** PECmd, AppCompatCacheParser, AmcacheParser, MFTECmd (Eric Zimmerman Tools)  
 **Операционная система образа:** Windows 10/11 (22000)
 
